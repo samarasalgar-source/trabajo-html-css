@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto | Estudio Web</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="../index.html">ESTUDIO WEB</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Portafolio</a></li>
+                <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="text-align: center; margin-bottom: 1.5rem;">Solicitud de Presupuesto</h2>
+            
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Introduce tu nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="ejemplo@correo.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">Teléfono de Contacto:</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-control" required placeholder="600000000">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="informacion">Solicite más información:</label>
+                        <textarea id="informacion" name="informacion" class="form-control" rows="5" required placeholder="Describe detalladamente los requerimientos de tu proyecto web..."></textarea>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">Acepto expresamente la Política de Privacidad de la empresa.</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p>Dirección: Av. de la Innovación, 42, Planta 3</p>
+                <p>Valencia, España</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener">X / Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <h3>Información</h3>
+                <p>&copy; 2026 Estudio Web. Todos los derechos reservados.</p>
+                <p><a href="#">Aviso Legal y Política de Privacidad</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
